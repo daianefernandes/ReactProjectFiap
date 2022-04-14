@@ -9,6 +9,7 @@ import {
 
 export const Subtitle = styled.h3`
     color: ${(props) => props.color};
+	cursor: pointer;
 	font-family: ${FontFamilies.PRIMARY};
 	font-size: ${FontSizes.TWO};
 	font-weight: ${FontWeights.SUPER_BOLD};
